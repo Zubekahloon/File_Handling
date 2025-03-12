@@ -19,14 +19,14 @@ Highlight the key functionalities of your project:
   2. A terminal or command prompt
 
 Install and run the project.
- **Clone the repository**
-git clone https://github.com/ZubeKahloon/File_Handling.git
+ 1. **Clone the repository**
+ git clone https://github.com/ZubeKahloon/File_Handling.git
 
- **Navigate to the project directory**
-cd File_Handling
+ 2. **Navigate to the project directory**
+ cd File_Handling
 
-** Run the Python script**
-python filename.py
+ 3. **Run the Python script**
+ python filename.py
 
 # **5. Usage:**
 Sample usage guide:
