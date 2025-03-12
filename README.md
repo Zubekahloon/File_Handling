@@ -1,10 +1,10 @@
-**1. Project Title:**
+# **1. Project Title:**
   "Simple File Handling with Python"
 
-**2. Project Description:**
+# **2. Project Description:**
     This Python-based project provides a simple file handling system using .txt to store and manage a to-do list. It allows users to add, delete, update, and display items from a stored list efficiently. The project follows an object-oriented approach and ensures data persistence across sessions.
 
-**3. Features:**
+# **3. Features:**
 Highlight the key functionalities of your project:
 ✅ Load and save data using .txt
 ✅ Add new items to the list
