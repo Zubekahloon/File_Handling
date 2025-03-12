@@ -6,12 +6,12 @@
 
 # **3. Features:**
 Highlight the key functionalities of your project:
-✅ Load and save data using .txt
-✅ Add new items to the list
-✅ Delete existing items
-✅ Update items in the list
-✅ Display the stored list in a user-friendly format
-✅ Error handling for missing files and invalid input
+1.✅ Load and save data using .txt
+2.✅ Add new items to the list
+3.✅ Delete existing items
+4.✅ Update items in the list
+5.✅ Display the stored list in a user-friendly format
+6.✅ Error handling for missing files and invalid input
 
 # **4. Installation & Setup:**
 **Requirements:**
@@ -19,13 +19,13 @@ Highlight the key functionalities of your project:
   2. A terminal or command prompt
 
 Install and run the project.
- 1. **Clone the repository**
+ 1. **Clone the repository :**
  git clone https://github.com/ZubeKahloon/File_Handling.git
 
- 2. **Navigate to the project directory**
+ 2. **Navigate to the project directory :**
  cd File_Handling
 
- 3. **Run the Python script**
+ 3. **Run the Python script :**
  python filename.py
 
 # **5. Usage:**
