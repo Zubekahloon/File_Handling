@@ -1,0 +1,98 @@
+*Step-by-Step Explanation of the File Handling Project Code*
+
+*Purpose*
+    This program is a simple file-based list management system using Object-Oriented Programming (OOP). It allows users to add, delete, update, and display items stored in a text file
+
+Steps:
+
+1. Class FileHandling_With_List:
+
+    Defines a class FileHandling_With_List to manage a list stored in a file.
+    It contains methods for loading, saving, adding, deleting, updating, and displaying data.
+
+
+2. load_data()
+    
+    This function reads data from the file and returns it as a list.
+
+    🔹 How it Works:
+    It opens the file in "r" (read) mode.
+    Reads all lines and removes extra spaces using .strip().
+    If the file does not exist, it handles FileNotFoundError and returns an empty list.
+
+
+3. save_data()
+
+    This function saves the list to a file.
+
+    🔹 How it Works:
+    Opens the file in write mode ("w").
+    Writes each item from the list to the file.
+    Each item is written on a new line.
+
+
+4. add_item()
+   
+    This function adds a new item to the list and saves it.
+
+    🔹 How it Works:
+    Takes user input for the new item.
+    Loads existing data from the file using load_data().
+    Adds the new item to the list using .append().
+    Saves the updated list back to the file using save_data().
+
+
+5. delete_item()
+
+    This function deletes an item from the list.
+
+    🔹 How it Works:
+    Loads existing data from the file.
+    Displays the current list to the user.
+    Asks for an item to delete.
+    If the item exists, it is removed using .remove().
+    The updated list is saved back to the file.
+    If the item is not found, it prints "Item not found."
+
+
+6. update_item(self)
+
+    This function updates an existing item in the list.
+
+    🔹 How it Works:
+    Loads existing data from the file.
+    Displays the current list.
+    Asks for an item to update.
+    If the item is found, it:
+    Asks for the new value.
+    Finds the index of the old item.
+    Replaces the old item with the new one.
+    Saves the updated list back to the file.
+    If the item is not found, it prints "Item not found."
+
+7. display_list()
+
+    This function displays the current list from the file.
+
+    🔹 How it Works:
+    Loads the data from the file.
+    Prints the list.
+
+
+8. Main Program Logic (User Interaction)
+
+   After defining the class, the program runs in a loop, asking users to choose an option.
+
+   🔹 How it Works:
+    Creates an object (fh) of the FileHandling_With_List class.
+    Defines the filename (data.txt).
+    Enters an infinite loop (while True), showing options:
+        1: Add an item
+        2: Delete an item
+        3: Update an item
+        4: Display the list
+        5: Exit the program
+    Reads user choice using input().
+    Calls the appropriate function based on user input.
+    If the user enters "5", the program exits.
+    If the user enters an invalid choice, it prints "Invalid choice. Try again." and asks again.
