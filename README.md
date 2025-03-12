@@ -13,22 +13,22 @@ Highlight the key functionalities of your project:
 ✅ Display the stored list in a user-friendly format
 ✅ Error handling for missing files and invalid input
 
-**4. Installation & Setup:**
+# **4. Installation & Setup:**
 **Requirements:**
   1. Python 3.x
   2. A terminal or command prompt
 
 Install and run the project.
-# Clone the repository
+ **Clone the repository**
 git clone https://github.com/ZubeKahloon/File_Handling.git
 
-# Navigate to the project directory
+ **Navigate to the project directory**
 cd File_Handling
 
-# Run the Python script
+** Run the Python script**
 python filename.py
 
-**5. Usage:**
+# **5. Usage:**
 Sample usage guide:
 
 Run the script
@@ -40,7 +40,7 @@ Example commands inside the script
   fh.update_item("Task 1", "Task 2") 
   fh.display_list()        
 
-**6. Example Output:**
+# **6. Example Output:**
 Show what users will see when they run the script.
 Options:
 1. Add Item
@@ -52,13 +52,13 @@ Enter choice: 1
 Enter item to add: Harry
 Item added successfully.
 
-**7. Technologies Used:**
+# **7. Technologies Used:**
 🟢 Python
 🟢 File Handling (.txt storage)
 
-**8. Contributing:**
+# **8. Contributing:**
 Others can contribute:
 Feel free to fork this repository and submit a pull request with improvements or bug fixes.
 
-**9. Author & Contact**
+# **9. Author & Contact**
 Developed by Zube.
